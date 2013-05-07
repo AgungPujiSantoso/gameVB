@@ -6,6 +6,7 @@
         End Sub
     'Listing ini digunakan untuk memulai game, yaitu dengan memunculkan form2
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        MsgBox("TERIMA KASIH")
         Close()
     End Sub
     'Listing ini digunakan untuk menutup program aplikasi, yaitu dengan menutup form1

@@ -32,6 +32,7 @@ Partial Class Form7
         Me.Label1.AllowDrop = True
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(357, 208)
@@ -40,22 +41,24 @@ Partial Class Form7
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Silver
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(290, 227)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "KEMBALI"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(377, 262)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form7"
         Me.Text = "Bantuan"
         Me.ResumeLayout(False)
